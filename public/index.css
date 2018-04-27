@@ -1,60 +1,68 @@
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-	background: #0f0c29;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	font-family: 'Montserrat', sans-serif;
+  background: #0f0c29;
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); 
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); 
+  font-family: "Montserrat", sans-serif;
 }
 
 .title {
-	color: black;
-	font-weight: lighter;
-	text-align: center;
-	padding: 1rem;
+  color: black;
+  font-weight: lighter;
+  text-align: center;
+  padding: 1rem;
 }
 
 .card {
-	background-color: #fff;
-	width: 393px;
-	height: 543px;
-	margin: 2rem auto;
+  background-color: #fff;
+  width: 393px;
+  height: 543px;
+  margin: 2rem auto;
 }
 
 .country {
-	color: #333;
-	font-size: 2.7em;
-	font-weight: bold;
+  color: #333;
+  font-size: 2.7em;
+  font-weight: bold;
 }
 
 .city-wrapper {
-	text-align: center;
+  text-align: center;
 }
 
 .city-name {
-	width: 80%;
-	height: 60px;
-	border: none;
-	font-size: 1em;
-	border-bottom: 1px solid #eee;
-	text-transform: uppercase;
-	text-align: center;
-	outline: none;
-	transition: 1s all ease;
+  width: 80%;
+  height: 60px;
+  border: none;
+  font-size: 1em;
+  border-bottom: 1px solid #eee;
+  text-transform: uppercase;
+  text-align: center;
+  outline: none;
+  transition: 1s all ease;
 }
 
-
 .city-name:focus {
-	border-color: #48dbfb;	
+  border-color: #48dbfb;
 }
 
 .output {
-	width: 190px;
-
-	margin: 0 auto;
-	padding-top: 1em;
+  width: 190px;	
+  margin: 0 auto;
+  padding-top: 1em;
 }
