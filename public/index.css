@@ -47,10 +47,10 @@ body {
 
 .city-name {
   width: 80%;
-  height: 60px;
+  height: 50px;
   border: none;
   font-size: 1em;
-  border-bottom: 1px solid #eee;
+  border-bottom: 2px solid #eee;
   text-transform: uppercase;
   text-align: center;
   outline: none;
