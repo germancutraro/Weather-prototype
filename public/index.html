@@ -6,19 +6,16 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
-	
-
-	
-	
 	<section class="card">	
 		<h1 class="title">Weather App</h1>
-		<input type="text" placeholder="Write your city...">
-		<span class="country" id="country-output"></span>
+		<p class="city-wrapper">
+			<input type="text" placeholder="Write your city..." id="city-name" class="city-name">
+		</p>	
+		<div class="output">
+			<img src="" alt="" id="weather-icon">
+			<span class="country" id="country-output"></span>
+		</div>
     </section>
-
-
-
-
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
 	<script src="index.js"></script>
 </body>
